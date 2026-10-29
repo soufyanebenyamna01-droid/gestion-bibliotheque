@@ -18,3 +18,6 @@ class Livre:
     def __str__(self):
         statut = "disponible" if self.disponible else "emprunté"
         return f"{self.titre} ({self.auteur}) - {statut}"
+    def __str__(self):
+        statut = "disponible" if self.disponible else "emprunté"
+        return f"{self.titre} par {self.auteur} (ISBN {self.isbn}) - {statut}"
