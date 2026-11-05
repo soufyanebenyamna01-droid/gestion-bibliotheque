@@ -7,3 +7,5 @@ Application Python permettant de gérer un catalogue de livres.
 - Ajout et recherche de livres
 
 - Recherche par titre, auteur et ISBN
+
+Prérequis : Python 3.9 ou supérieur.
