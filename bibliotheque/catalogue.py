@@ -1,3 +1,6 @@
+from bibliotheque import livre
+
+
 class Bibliotheque:
     """Catalogue de livres."""
 
@@ -48,3 +51,13 @@ Catalogue = Bibliotheque
 if __name__ == "__main__":
     biblio = Catalogue()
     print(f"{len(biblio)} livres au catalogue")
+
+
+
+def supprimer(self, isbn):
+    """Supprime le livre d'ISBN donné. Retourne True si un livre a été supprimé."""
+    livre = self.rechercher_par_isbn(isbn)
+    if livre is None:
+        return False
+    self._livres.remove(livre)
+    return True
