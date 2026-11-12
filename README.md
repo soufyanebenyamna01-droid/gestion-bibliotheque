@@ -13,3 +13,4 @@ Prérequis : Python 3.9 ou supérieur.
 ## Contribuer
 Consultez [CONTRIBUTING.md](CONTRIBUTING.md) avant d'ouvrir une pull request.
 
+- Suppression d'un livre par ISBN
