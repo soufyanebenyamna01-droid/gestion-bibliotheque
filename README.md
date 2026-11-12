@@ -9,3 +9,6 @@ Application Python permettant de gérer un catalogue de livres.
 - Recherche par titre, auteur et ISBN
 
 Prérequis : Python 3.9 ou supérieur.
+
+## Contribuer
+Consultez [CONTRIBUTING.md](CONTRIBUTING.md) avant d'ouvrir une pull request.
