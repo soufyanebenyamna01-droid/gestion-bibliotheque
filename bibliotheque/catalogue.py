@@ -42,4 +42,9 @@ class Bibliotheque:
         return sorted(self._livres, key=lambda l: l.titre, reverse=inverse)
 
 
-print(f"{len(biblio)} livres au catalogue")
+Catalogue = Bibliotheque
+
+
+if __name__ == "__main__":
+    biblio = Catalogue()
+    print(f"{len(biblio)} livres au catalogue")
